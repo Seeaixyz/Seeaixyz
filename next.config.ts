@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
           {
             key: 'Content-Security-Policy',
             value:
-              "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://ipwho.is https://formsubmit.co; object-src 'none'; base-uri 'self'; form-action 'none'",
+              "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://ipwho.is https://formsubmit.co; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'",
           },
         ],
       },
