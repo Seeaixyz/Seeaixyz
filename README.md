@@ -54,3 +54,4 @@ headers; the Edge Middleware (`src/middleware.ts`) and the waitlist API route
 - The waitlist consent line (`wlConsent`) links to `/privacy` (Next.js route)
   instead of the static `privacy.html`.
 - `DEFAULT_LANG` is `'ar'` (see `src/content.json` → `defaultLang`).
+ # Seeaixtz Updated
