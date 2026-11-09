@@ -12,9 +12,13 @@ function ShowCard({
   item: ShowcaseItem;
   onOpen: (item: ShowcaseItem) => void;
 }) {
-  const ref = useReveal<HTMLElement>();
+  const [ref, visible] = useReveal<HTMLElement>();
   return (
-    <figure ref={ref} className="show-card reveal" onClick={() => onOpen(item)}>
+    <figure
+      ref={ref}
+      className={`show-card reveal${visible ? ' in' : ''}`}
+      onClick={() => onOpen(item)}
+    >
       <img src={`/${item.src}`} alt={item.cap} loading="lazy" draggable={false} />
       <figcaption>
         <b>{item.cap}</b>

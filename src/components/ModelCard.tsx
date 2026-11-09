@@ -7,7 +7,7 @@ import { useReveal } from './Reveal';
 export default function ModelCard({ kind }: { kind: 'mini' | 'large' }) {
   const { t } = useLang();
   const [open, setOpen] = useState(false);
-  const ref = useReveal<HTMLElement>();
+  const [ref, visible] = useReveal<HTMLElement>();
 
   const name = kind === 'mini' ? t('miniName') : t('largeName');
   const desc = kind === 'mini' ? t('miniDesc') : t('largeDesc');
@@ -24,14 +24,11 @@ export default function ModelCard({ kind }: { kind: 'mini' | 'large' }) {
   return (
     <article
       ref={ref}
-      className={`model-card ${kind} reveal${open ? ' open' : ''}`}
+      className={`model-card ${kind} reveal${visible ? ' in' : ''}${open ? ' open' : ''}`}
       tabIndex={0}
       role="button"
       aria-expanded={open}
-      onClick={(e) => {
-        e.stopPropagation();
-        setOpen((o) => !o);
-      }}
+      onClick={() => setOpen((o) => !o)}
       onKeyDown={onKey}
     >
       <span className="expand">
@@ -50,7 +47,7 @@ export default function ModelCard({ kind }: { kind: 'mini' | 'large' }) {
       <span className="badge">{badge}</span>
       <h3>{name}</h3>
       <p>{desc}</p>
-      <div className="more" onClick={(e) => e.stopPropagation()}><p>{more}</p></div>
+      <p className="more">{more}</p>
     </article>
   );
 }
