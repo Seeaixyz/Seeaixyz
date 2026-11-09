@@ -59,7 +59,10 @@ export default async function middleware(req: NextRequest) {
   if (
     pathname === '/robots.txt' ||
     pathname === '/sitemap.xml' ||
-    pathname === '/decoy'
+    pathname === '/decoy' ||
+    // Google Search Console verification files (google<token>.html) must
+    // always be fetchable by Google, or ownership verification fails.
+    (pathname.startsWith('/google') && pathname.endsWith('.html'))
   ) {
     return NextResponse.next();
   }

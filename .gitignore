@@ -1,5 +1,8 @@
 # never commit any .html file — the site is Next.js (.tsx) only
 *.html
+# EXCEPTION: Google Search Console verification files (google<token>.html)
+# are required by Google and must be committed.
+!google*.html
 
 # dependencies
 /node_modules
