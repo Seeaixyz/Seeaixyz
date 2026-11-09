@@ -28,7 +28,10 @@ export default function ModelCard({ kind }: { kind: 'mini' | 'large' }) {
       tabIndex={0}
       role="button"
       aria-expanded={open}
-      onClick={() => setOpen((o) => !o)}
+      onClick={(e) => {
+        e.stopPropagation();
+        setOpen((o) => !o);
+      }}
       onKeyDown={onKey}
     >
       <span className="expand">
@@ -47,7 +50,7 @@ export default function ModelCard({ kind }: { kind: 'mini' | 'large' }) {
       <span className="badge">{badge}</span>
       <h3>{name}</h3>
       <p>{desc}</p>
-      <p className="more">{more}</p>
+      <div className="more" onClick={(e) => e.stopPropagation()}><p>{more}</p></div>
     </article>
   );
 }
