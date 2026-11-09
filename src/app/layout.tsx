@@ -29,14 +29,30 @@ export const metadata: Metadata = {
   description:
     'See Image 1.0 — an image model that writes Arabic accurately, in the right place. Join the waitlist. Launching soon: Mini first, then Large.',
   keywords: [
+    // Brand — the terms the site must own once indexed.
     'See AI',
+    'SeeAI',
     'See Image AI',
     'See Image',
+    'See Image 1.0',
+    'seeai.xyz',
+    // Arabic image generation — See Image's unique edge.
     'Arabic image generation',
-    'AI image generator',
     'Arabic text to image',
     'text to image Arabic',
-    'See Image 1.0',
+    'Arabic AI image generator',
+    'AI image generator Arabic',
+    'Arabic text in images',
+    'Arabic text image generator',
+    // AI image generation — relevant, high-volume terms.
+    'AI image generator',
+    'text to image AI',
+    'AI picture generator',
+    'AI art generator',
+    'AI image creator',
+    'AI image maker',
+    'photorealistic AI image generator',
+    'AI image editor',
   ],
   robots: { index: true, follow: true, 'max-image-preview': 'large' },
   alternates: {
