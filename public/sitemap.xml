@@ -2,7 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://seeai.xyz/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://seeai.xyz/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seeai.xyz/account</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://seeai.xyz/chat</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://seeai.xyz/create</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://seeai.xyz/pricing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://seeai.xyz/privacy</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://seeai.xyz/refund</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>

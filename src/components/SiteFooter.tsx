@@ -9,6 +9,7 @@ export default function SiteFooter() {
     <footer>
       <div className="ftr-in">
         <nav className="ftr-links">
+          <Link href="/create">{t('navCreate')}</Link>
           <Link href="/pricing">{t('navPricing')}</Link>
           <Link href="/chat">{t('navChat')}</Link>
           <Link href="/about">{t('navAbout')}</Link>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { useLang } from './LangProvider';
 
 interface DemoUser {
@@ -16,6 +17,7 @@ const KEY = 'see-demo-user';
 // Real Google sign-in opens at launch.
 export default function GoogleSignIn() {
   const { t } = useLang();
+  const router = useRouter();
   const [user, setUser] = useState<DemoUser | null>(null);
   const [open, setOpen] = useState(false);
 
@@ -37,6 +39,7 @@ export default function GoogleSignIn() {
       /* storage unavailable */
     }
     setOpen(false);
+    router.push('/create');
   };
 
   const signOut = () => {

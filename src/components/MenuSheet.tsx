@@ -28,6 +28,8 @@ export default function MenuSheet({
   const { t, lang, setLang } = useLang();
 
   const links: Array<[string, string]> = [
+    ['/create', t('navCreate')],
+    ['/account', t('navAccount')],
     ['/#models', t('navModels')],
     ['/pricing', t('navPricing')],
     ['/chat', t('navChat')],

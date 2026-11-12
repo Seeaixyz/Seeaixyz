@@ -36,6 +36,7 @@ export default function TopBar({
           <b>{t('brand')}</b>
         </button>
         <nav className="topnav" aria-label="Main">
+          <Link href="/create">{t('navCreate')}</Link>
           <Link href="/#models">{t('navModels')}</Link>
           <Link href="/pricing">{t('navPricing')}</Link>
           <Link href="/chat">{t('navChat')}</Link>

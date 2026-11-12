@@ -270,7 +270,21 @@
   "demoAccountName": "Demo User",
   "demoSignInNote": "Demo sign-in — real Google sign-in opens at launch.",
   "footerOperator": "Operated by Mahmoud Saad Mohamed Shafie Darhous — Faqous, Sharqia Governorate, Egypt",
-  "footerPayments": "Payments processed by Paddle"
+  "footerPayments": "Payments processed by Paddle",
+  "navCreate": "Create",
+  "navAccount": "Account",
+  "createTitle": "Create",
+  "createSub": "Describe the image you want, or upload one and describe the change.",
+  "createPromptPh": "Describe the image you want…",
+  "createGenerate": "Generate",
+  "createSoon": "Image generation opens at launch. Your prompt is kept on this device only — nothing is sent yet.",
+  "createResult": "Your image will appear here at launch.",
+  "accountTitle": "Account",
+  "accountPlan": "Plan",
+  "accountFree": "Free",
+  "accountToday": "Images created today",
+  "accountUpgrade": "See plans",
+  "accountSignedIn": "Signed in as"
  },
  "jawi": {
   "aboutTitle": "تنتڠ کامي",
@@ -345,7 +359,21 @@
   "demoAccountName": "Demo User",
   "demoSignInNote": "لوڬ ماسوق چوباءن — لوڬ ماسوق Google سبنر دبوک سأماسا ڤلنچرن.",
   "footerOperator": "دکنداليکن اوليه محمود سعد محمد شافعي درهوس — فاقوس، الشرقية، مصر",
-  "footerPayments": "بايارن دڤروسيس اوليه Paddle"
+  "footerPayments": "بايارن دڤروسيس اوليه Paddle",
+  "navCreate": "چيڤتا",
+  "navAccount": "اکاون",
+  "createTitle": "چيڤتا",
+  "createSub": "جلسکن ڬمبر يڠ اندا ماهو، اتاو مؤت ناءيق ساتو دان جلسکن ڤروبهنڽ.",
+  "createPromptPh": "جلسکن ڬمبر يڠ اندا ماهو…",
+  "createGenerate": "جان",
+  "createSoon": "ڤڠلوارن ڬمبر دبوک سأماسا ڤلنچرن. ڤرومڤت اندا دسيمان دالم ڤرنتي اين سهاج — تيدق داڤت ديهنتار لاڬي.",
+  "createResult": "ڬمبر اندا اکن مونچول د سيني سأماسا ڤلنچرن.",
+  "accountTitle": "اکاون",
+  "accountPlan": "ڤلن",
+  "accountFree": "ڤرچوما",
+  "accountToday": "ڬمبر يڠ دچيڤتا هاري اين",
+  "accountUpgrade": "ليهت ڤلن",
+  "accountSignedIn": "دلوڬ ماسوق سباڬاي"
  },
  "thaana": {
   "aboutTitle": "އަހަރެމެންނާ ބެހޭ",
@@ -420,6 +448,20 @@
   "demoAccountName": "Demo User",
   "demoSignInNote": "ޑެމޯ ލޮގިން — އަސްލު Google ލޮގިން ހުޅުވާނީ ލޯންޗްގައި.",
   "footerOperator": "ހިންގަނީ މަޙްމޫދު ސައްދު މުޙައްމަދު ޝާފިޢީ ދަރުހޫސް — ފާޤޫސް، ޝަރުޤިއްޔާ، މިޞްރު",
-  "footerPayments": "ޕޭމަންޓް ޕްރޮސެސްކުރަނީ Paddle އިން"
+  "footerPayments": "ޕޭމަންޓް ޕްރޮސެސްކުރަނީ Paddle އިން",
+  "navCreate": "އުފައްދާ",
+  "navAccount": "އެކައުންޓް",
+  "createTitle": "އުފައްދާ",
+  "createSub": "ބޭނުންވާ ފޮޓޯ ބަޔާންކޮށްދޭން، ނުވަތަ ފޮޓޯއެއް އަޕްލޯޑްކޮށް ބަދަލު ބަޔާންކޮށްދޭން.",
+  "createPromptPh": "ބޭނުންވާ ފޮޓޯ ބަޔާންކޮށްދޭން…",
+  "createGenerate": "އުފައްދާ",
+  "createSoon": "ފޮޓޯ އުފެއްދުން ހުޅުވާނީ ލޯންޗްގައި. ތިޔަ ޕްރޮމްޕްޓް ރަހައްޓާނީ މި ޑިވައިސްގައި އެކަނި — އަދި އެއްޗެއް ނުފޮނުވޭ.",
+  "createResult": "ތިޔަ ފޮޓޯ ލޯންޗްގައި މިތަނުގައި ފެންނާނެ.",
+  "accountTitle": "އެކައުންޓް",
+  "accountPlan": "ޕްލޭން",
+  "accountFree": "ހިލޭ",
+  "accountToday": "މިއަދު އުފެއްދި ފޮޓޯތައް",
+  "accountUpgrade": "ޕްލޭންތައް ބައްލަވާ",
+  "accountSignedIn": "ލޮގިންވެފައިވަނީ"
  }
 }
