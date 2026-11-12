@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { LANGS, useLang } from './LangProvider';
+import GoogleSignIn from './GoogleSignIn';
 
 const CHEVRON = (
   <svg
@@ -73,6 +74,7 @@ export default function MenuSheet({
           </Link>
         ))}
         <div className="ms-foot">
+          <GoogleSignIn />
           <div className="seg lang-switch" role="group" aria-label="Language">
             {LANGS.map((l) => (
               <button

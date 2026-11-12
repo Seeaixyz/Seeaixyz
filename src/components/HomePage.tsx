@@ -56,8 +56,7 @@ export default function HomePage() {
             <p className="lead">{t('modelsNote')}</p>
           </Reveal>
           <div className="model-grid">
-            <ModelCard kind="mini" />
-            <ModelCard kind="large" />
+            <ModelCard />
           </div>
           <Reveal>
             <p className="api-note">{t('apiNote')}</p>

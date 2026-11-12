@@ -8,7 +8,7 @@
    ],
    [
     "Models",
-    "Two models: See Image 1.0 Mini for speed and See Image 1.0 Large for highest precision."
+    "One model: See Image 1.0 Mini."
    ],
    [
     "Bulk production",
@@ -16,7 +16,7 @@
    ],
    [
     "Status",
-    "The platform is under preparation and will open when the models launch — Mini first, then Large."
+    "The platform is under preparation and will open when the model launches."
    ],
    [
     "Contact",
@@ -34,20 +34,17 @@
   "footerRights": "© 2026 See Image",
   "heroCta": "Join the waitlist",
   "heroKicker": "See AI · See Image AI",
-  "heroNote": "Launching soon — Mini first.",
+  "heroNote": "Launching soon.",
   "heroSub": "See Image 1.0 — an image model that writes Arabic accurately, in the right place.",
   "heroTitle": "Images with correct",
   "heroTitleAccent": "Arabic text",
-  "largeDesc": "The most accurate Arabic and English lettering, and photorealistic images.",
-  "largeMore": "For final images, ready to publish and display.",
-  "largeName": "See Image 1.0 Large",
   "loginClosed": "Sign-in is currently closed",
   "menuTitle": "Menu",
   "miniDesc": "Fast and light — for quick tests.",
   "miniMore": "Made for quick tests before the final version.",
   "miniName": "See Image 1.0 Mini",
-  "modelsNote": "Mini first, then Large.",
-  "modelsTitle": "The two models",
+  "modelsNote": "See Image 1.0 Mini — the only model.",
+  "modelsTitle": "One model",
   "navAbout": "About",
   "navModels": "Models",
   "navPrivacy": "Privacy Policy",
@@ -90,19 +87,19 @@
   "showcase": [
    {
     "cap": "Cairo",
-    "model": "See Image 1.0 Large",
+    "model": "See Image 1.0 Mini",
     "src": "assets/showcase/cairo-night.webp",
     "sub": "An unforgettable night"
    },
    {
     "cap": "Nile Bookstore",
-    "model": "See Image 1.0 Large",
+    "model": "See Image 1.0 Mini",
     "src": "assets/showcase/nile-bookstore.webp",
     "sub": "A shopfront at night"
    },
    {
     "cap": "Arabic Coffee",
-    "model": "See Image 1.0 Large",
+    "model": "See Image 1.0 Mini",
     "src": "assets/showcase/arabic-coffee.webp",
     "sub": "A wooden menu board"
    },
@@ -114,13 +111,13 @@
    },
    {
     "cap": "Al-Sharq Restaurant",
-    "model": "See Image 1.0 Large",
+    "model": "See Image 1.0 Mini",
     "src": "assets/showcase/restaurant-sharq.webp",
     "sub": "A restaurant front"
    },
    {
     "cap": "Moez Street",
-    "model": "See Image 1.0 Large",
+    "model": "See Image 1.0 Mini",
     "src": "assets/showcase/moez-street.webp",
     "sub": "Old Cairo"
    },
@@ -148,7 +145,7 @@
    ],
    [
     "The service",
-    "See Image is an image-generation and chat platform, still under preparation. The models are not available yet and will open at launch — Mini first, then Large. Features and prices may change before launch."
+    "See Image is an image-generation and chat platform, still under preparation. The model is not available yet and will open at launch. Features and prices may change before launch."
    ],
    [
     "Limits",
@@ -187,7 +184,7 @@
    ],
    [
     "Expected launch · Dec 2026 or Jan 2027",
-    "See Image 1.0 is still in intensive testing. The expected launch is in early December or January: Mini first, then Large. The platform is for simple tests; bulk production goes through third-party API providers."
+    "See Image 1.0 is still in intensive testing. The expected launch is in early December or January. The platform is for simple tests; bulk production goes through third-party API providers."
    ]
   ],
   "updatesTitle": "What’s new",
@@ -220,7 +217,7 @@
   "proTotal": "$15.20 total at checkout",
   "proDesc": "For regular creators — everything in Starter, plus image to image.",
   "pricingCta": "Join the waitlist",
-  "pricingLaunch": "Subscriptions open at launch — Mini first, then Large. Join the waitlist and we will email you as soon as you can subscribe.",
+  "pricingLaunch": "Subscriptions open at launch. Join the waitlist and we will email you as soon as you can subscribe.",
   "refundTitle": "Refund Policy",
   "chatTitle": "Chat",
   "chatSub": "One chat, two ways to create: text to image, and image to image.",
@@ -266,7 +263,14 @@
   "chatModeImg2Img": "Image to Image",
   "chatPhImg2Img": "Describe the change you want in the image…",
   "chatUpload": "Upload an image",
-  "chatNoImage": "Choose an image first."
+  "chatNoImage": "Choose an image first.",
+  "signInGoogle": "Sign in with Google",
+  "signOut": "Sign out",
+  "chooseAccount": "Choose an account",
+  "demoAccountName": "Demo User",
+  "demoSignInNote": "Demo sign-in — real Google sign-in opens at launch.",
+  "footerOperator": "Operated by Mahmoud Saad Mohamed Shafie Darhous — Faqous, Sharqia Governorate, Egypt",
+  "footerPayments": "Payments processed by Paddle"
  },
  "jawi": {
   "aboutTitle": "تنتڠ کامي",
@@ -285,20 +289,17 @@
   "footerRights": "© 2026 See Image",
   "heroCta": "سرتاي سناراي منوڠڬو",
   "heroKicker": "See AI · See Image AI",
-  "heroNote": "اکن دلنچرکن تيدق لاما لاڬي — ميني دهولو.",
+  "heroNote": "اکن دلنچرکن تيدق لاما لاڬي.",
   "heroSub": "See Image 1.0 — موديل ڬمبر يڠ منوليس بهاس عرب دڠن بتول، د تمڤت يڠ بتول.",
   "heroTitle": "ڬمبر دڠن تيکس",
   "heroTitleAccent": "عرب يڠ بتول",
-  "largeDesc": "حروف عرب دان ايڠڬريس يڠ ڤاليڠ تڤت، دان ڬمبر ڤوتورياليستيک.",
-  "largeMore": "اونتوق ڬمبر اخير، سيديا اونتوق دتربيتکن دان دڤاميرکن.",
-  "largeName": "See Image 1.0 Large",
   "loginClosed": "لوڬ ماسوق کيني دتوتوڤ",
   "menuTitle": "مينو",
   "miniDesc": "ڤنتس دان ريڠن — اونتوق اوجين ڤنتس.",
   "miniMore": "دبوات اونتوق اوجين ڤنتس سبولوم ۏرسي اخير.",
   "miniName": "See Image 1.0 Mini",
-  "modelsNote": "ميني دهولو، کمودين لارج.",
-  "modelsTitle": "دوا موديل",
+  "modelsNote": "See Image 1.0 Mini — موديل يڠ ساتو-ساتوڽ.",
+  "modelsTitle": "ساتو موديل",
   "navAbout": "تنتڠ",
   "navChat": "سمبڠ",
   "navModels": "موديل",
@@ -309,7 +310,7 @@
   "navUpdates": "ترکيني",
   "navWaitlist": "سناراي منوڠڬو",
   "pricingCta": "سرتاي سناراي منوڠڬو",
-  "pricingLaunch": "لڠڬنن دبوک سأماسا ڤلنچرن — ميني دهولو، کمودين لارج. سرتاي سناراي منوڠڬو دان کامي اکن مڠهنتار ايميل کڤاد اندا سبݢيرا اندا بوليه ملڠڬن.",
+  "pricingLaunch": "لڠڬنن دبوک سأماسا ڤلنچرن. سرتاي سناراي منوڠڬو دان کامي اکن مڠهنتار ايميل کڤاد اندا سبݢيرا اندا بوليه ملڠڬن.",
   "pricingNote": "هرڬ دالم دولر امريکا. يورن ڤمڤروسيسن بايارن (5% + $0.50 ستياڤ بايارن، دچاس اوليه Paddle) دتمبه سأماسا ڤمبايارن دان دباير اوليه اندا، ڤلڠڬن — هرڬ ڤلن سنديري ڤرڬي کڤاد See AI سڤنوهڽا. لڠڬنن دڤرباهروي ستياڤ بولن دان بوليه دبتالکن بيلا-بيلا ماس. تيدق اد لاتيهن موديل ترسسواي (LoRA) دتاورکن.",
   "pricingSub": "دوا ڤلن بولنن يڠ موده. يورن ڤمڤروسيسن بايارن دتمبه سأماسا ڤمبايارن دان دباير اوليه ڤلڠڬن.",
   "pricingTitle": "هرڬ",
@@ -337,7 +338,14 @@
   "chatModeImg2Img": "ڬمبر ک ڬمبر",
   "chatPhImg2Img": "جلسکن ڤروبهن يڠ اندا ماهو دالم ڬمبر…",
   "chatUpload": "مؤت ناءيق ڬمبر",
-  "chatNoImage": "ڤيليه ڬمبر دهولو."
+  "chatNoImage": "ڤيليه ڬمبر دهولو.",
+  "signInGoogle": "لوڬ ماسوق دڠن Google",
+  "signOut": "لوڬ کلوار",
+  "chooseAccount": "ڤيليه اکاون",
+  "demoAccountName": "Demo User",
+  "demoSignInNote": "لوڬ ماسوق چوباءن — لوڬ ماسوق Google سبنر دبوک سأماسا ڤلنچرن.",
+  "footerOperator": "دکنداليکن اوليه محمود سعد محمد شافعي درهوس — فاقوس، الشرقية، مصر",
+  "footerPayments": "بايارن دڤروسيس اوليه Paddle"
  },
  "thaana": {
   "aboutTitle": "އަހަރެމެންނާ ބެހޭ",
@@ -356,20 +364,17 @@
   "footerRights": "© 2026 See Image",
   "heroCta": "އިންތިޒާރު ލިސްޓަށް ޖޮއިންވන්න",
   "heroKicker": "See AI · See Image AI",
-  "heroNote": "އަންނަނީ — ފުރަތަމަ މިނީ.",
+  "heroNote": "އަންނަނީ.",
   "heroSub": "ސީ އިމޭޖް 1.0 — ޢަރަބި ލިޔުން ސައްހަކޮށް، ސައްހަ ތަނުގައި ލިޔެވޭ ފޮޓޯ މޮޑެލެއް.",
   "heroTitle": "ފޮޓޯތައް",
   "heroTitleAccent": "ސައްހަ ޢަރަބި ލިޔުމާއެކު",
-  "largeDesc": "އެންމެ ސައްހަ ޢަރަބި އަދި އިނގިރޭސި އަކުރުތައް، އަދި ފޮޓޯރިއަލިސްޓިކް ފޮޓޯތައް.",
-  "largeMore": "ފައިނަލް ފޮޓޯތަކަށް، ޕަބްލިޝްކޮށް ދައްކަން ތައްޔާރު.",
-  "largeName": "See Image 1.0 Large",
   "loginClosed": "ލޮގިން މިހާރު ބަންދު",
   "menuTitle": "މެނޫ",
   "miniDesc": "އަވަސް އަދި ލުއި — އަވަސް ޓެސްޓަށް.",
   "miniMore": "ފައިނަލް ވަރޝަނަށް ކުރިން އަވަސް ޓެސްޓަށް ހަދާފައި.",
   "miniName": "See Image 1.0 Mini",
-  "modelsNote": "ފުރަތަމަ މިނީ، އަދި ދެން ލާރޖް.",
-  "modelsTitle": "ދެ މޮޑެލް",
+  "modelsNote": "See Image 1.0 Mini — އެއް މޮޑެލް އެކަނި.",
+  "modelsTitle": "އެއް މޮޑެލް",
   "navAbout": "އަހަރެމެންނާ ބެހޭ",
   "navChat": "ޗެޓް",
   "navModels": "މޮޑެލްތައް",
@@ -380,7 +385,7 @@
   "navUpdates": "އާ ޚަބަރުތައް",
   "navWaitlist": "އިންތިޒާރު ލިސްޓް",
   "pricingCta": "އިންތިޒާރު ލިސްޓަށް ޖޮއިންވන්න",
-  "pricingLaunch": "ސަބްސްކްރިޕްޝަން ހުޅުވާނީ ލޯންޗްގައި — ފުރަތަމަ މިނީ، އަދި ދެން ލާރޖް. އިންތިޒާރު ލިސްޓަށް ޖޮއިންވެ، ސަބްސްކްރައިބްކުރެވޭ ވަގުތު އީމެއިލް ލިބޭނެ.",
+  "pricingLaunch": "ސަބްސްކްރިޕްޝަން ހުޅުވާނީ ލޯންޗްގައި. އިންތިޒާރު ލިސްޓަށް ޖޮއިންވެ، ސަބްސްކްރައިބްކުރެވޭ ވަގުތު އީމެއިލް ލިބޭނެ.",
   "pricingNote": "އަގުތައް އެމެރިކާ ޑޮލަރުގައި. ޕޭމަންޓް ޕްރޮސެސިންގް ފީ (5% + $0.50 ކޮންމެ ޕޭމަންޓަކަށް، Paddle އިން ނަގާ) ޗެކްއައުޓްގައި އިތުރުކޮށް ސަބްސްކްރައިބަރު ދައްކާނެ — ޕްލޭން އަގު ފުރިހަމައަށް See AI އަށް ދޭ. ސަބްސްކްރިޕްޝަން ކޮންމެ މަހަކު ރިނިއުވެ، ކޮންމެ ވަގުތަކު ކެންސަލްކުރެވޭ. ކަސްޓަމް މޮޑެލް ޓްރެއިނިންގް (LoRA) ނުދެވޭ.",
   "pricingSub": "ދެ ސާދަ މަހު ޕްލޭން. ޕޭމަންޓް ޕްރޮސެސިންގް ފީ ޗެކްއައުޓްގައި އިތުރުކޮށް ސަބްސްކްރައިބަރު ދައްކާނެ.",
   "pricingTitle": "އަގުތައް",
@@ -408,6 +413,13 @@
   "chatModeImg2Img": "ފޮޓޯއިން ފޮޓޯއަށް",
   "chatPhImg2Img": "ފޮޓޯއަށް ގެންނަން ބޭނުންވާ ބަދަލު ބަޔާންކޮށްދޭން…",
   "chatUpload": "ފޮޓޯ އަޕްލޯޑްކުރައްވާ",
-  "chatNoImage": "ފުރަތަމަ ފޮޓޯއެއް ޚިޔާރުކުރައްވާ."
+  "chatNoImage": "ފުރަތަމަ ފޮޓޯއެއް ޚިޔާރުކުރައްވާ.",
+  "signInGoogle": "Google އިން ލޮގިން",
+  "signOut": "ލޮގްއައުޓް",
+  "chooseAccount": "އެކައުންޓް ޚިޔާރުކުރައްވާ",
+  "demoAccountName": "Demo User",
+  "demoSignInNote": "ޑެމޯ ލޮގިން — އަސްލު Google ލޮގިން ހުޅުވާނީ ލޯންޗްގައި.",
+  "footerOperator": "ހިންގަނީ މަޙްމޫދު ސައްދު މުޙައްމަދު ޝާފިޢީ ދަރުހޫސް — ފާޤޫސް، ޝަރުޤިއްޔާ، މިޞްރު",
+  "footerPayments": "ޕޭމަންޓް ޕްރޮސެސްކުރަނީ Paddle އިން"
  }
 }

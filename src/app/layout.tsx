@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://seeai.xyz'),
   title: 'See AI | See Image AI — Images with Correct Arabic Text',
   description:
-    'See Image 1.0 — an image model that writes Arabic accurately, in the right place. Join the waitlist. Launching soon: Mini first, then Large.',
+    'See Image 1.0 — an image model that writes Arabic accurately, in the right place. Join the waitlist. Launching soon.',
   keywords: [
     // Brand — the terms the site must own once indexed.
     'See AI',

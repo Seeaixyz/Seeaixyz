@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useLang } from './LangProvider';
+import GoogleSignIn from './GoogleSignIn';
 
 export default function TopBar({
   menuOpen,
@@ -36,10 +37,12 @@ export default function TopBar({
         </button>
         <nav className="topnav" aria-label="Main">
           <Link href="/#models">{t('navModels')}</Link>
-          <Link href="/waitlist">{t('navWaitlist')}</Link>
+          <Link href="/pricing">{t('navPricing')}</Link>
+          <Link href="/chat">{t('navChat')}</Link>
           <Link href="/about">{t('navAbout')}</Link>
         </nav>
         <div className="spacer" />
+        <GoogleSignIn />
         <Link href="/waitlist" className="btn light top-cta">
           {t('heroCta')}
         </Link>

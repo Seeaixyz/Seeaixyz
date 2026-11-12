@@ -25,6 +25,13 @@ export interface ContentLang {
   chatSub: string;
   chatTitle: string;
   chatUpload: string;
+  chooseAccount: string;
+  demoAccountName: string;
+  demoSignInNote: string;
+  footerOperator: string;
+  footerPayments: string;
+  signInGoogle: string;
+  signOut: string;
   navChat: string;
   navPricing: string;
   navRefund: string;
@@ -60,9 +67,6 @@ export interface ContentLang {
   heroSub: string;
   heroTitle: string;
   heroTitleAccent: string;
-  largeDesc: string;
-  largeMore: string;
-  largeName: string;
   loginClosed: string;
   menuTitle: string;
   miniDesc: string;

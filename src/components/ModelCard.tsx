@@ -4,15 +4,15 @@ import { useState, type KeyboardEvent } from 'react';
 import { useLang } from './LangProvider';
 import { useReveal } from './Reveal';
 
-export default function ModelCard({ kind }: { kind: 'mini' | 'large' }) {
+export default function ModelCard() {
   const { t } = useLang();
   const [open, setOpen] = useState(false);
   const [ref, visible] = useReveal<HTMLElement>();
 
-  const name = kind === 'mini' ? t('miniName') : t('largeName');
-  const desc = kind === 'mini' ? t('miniDesc') : t('largeDesc');
-  const more = kind === 'mini' ? t('miniMore') : t('largeMore');
-  const badge = kind === 'mini' ? 'Mini' : 'Large';
+  const name = t('miniName');
+  const desc = t('miniDesc');
+  const more = t('miniMore');
+  const badge = 'Mini';
 
   function onKey(e: KeyboardEvent) {
     if (e.key === 'Enter' || e.key === ' ') {
@@ -24,7 +24,7 @@ export default function ModelCard({ kind }: { kind: 'mini' | 'large' }) {
   return (
     <article
       ref={ref}
-      className={`model-card ${kind} reveal${visible ? ' in' : ''}${open ? ' open' : ''}`}
+      className={`model-card mini reveal${visible ? ' in' : ''}${open ? ' open' : ''}`}
       tabIndex={0}
       role="button"
       aria-expanded={open}

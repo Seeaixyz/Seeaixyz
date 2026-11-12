@@ -9,14 +9,21 @@ export default function SiteFooter() {
     <footer>
       <div className="ftr-in">
         <nav className="ftr-links">
+          <Link href="/pricing">{t('navPricing')}</Link>
+          <Link href="/chat">{t('navChat')}</Link>
           <Link href="/about">{t('navAbout')}</Link>
           <Link href="/privacy">{t('navPrivacy')}</Link>
           <Link href="/terms">{t('navTerms')}</Link>
+          <Link href="/refund">{t('navRefund')}</Link>
           <Link href="/updates">{t('navUpdates')}</Link>
         </nav>
         <div className="ftr-meta">
           <span>{t('footerRights')}</span>
           <a href="mailto:See@seeai.xyz">{t('footerContact')}</a>
+        </div>
+        <div className="ftr-meta">
+          <span>{t('footerOperator')}</span>
+          <span>{t('footerPayments')}</span>
         </div>
       </div>
     </footer>
