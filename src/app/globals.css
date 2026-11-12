@@ -199,3 +199,22 @@ dialog .row{display:flex;gap:10px;margin-top:14px;justify-content:flex-end}
 /* Thaana and Jawi are right-to-left scripts; fall back to fonts that carry them */
 html[lang="dv"] body{font-family:"Noto Sans Thaana",var(--font-sans,system-ui),sans-serif}
 html[lang="ms-Arab"] body{font-family:"Noto Naskh Arabic",var(--font-sans,system-ui),sans-serif}
+
+/* Demo Google sign-in (TopBar + menu sheet) */
+.gsi-btn{display:inline-flex;align-items:center;gap:8px;background:#fff;color:#111;border:1px solid #dadce0;border-radius:99px;height:40px;padding:0 16px;font-weight:600;font-size:14px;white-space:nowrap;flex:none}
+.gsi-g{width:18px;height:18px;flex:none}
+.gsi-user{display:inline-flex;align-items:center;gap:8px}
+.gsi-avatar{width:32px;height:32px;border-radius:50%;background:#fff;color:#000;display:inline-flex;align-items:center;justify-content:center;font-weight:700;flex:none}
+.gsi-name{font-weight:600;font-size:14px;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gsi-signout{background:none;border:0;color:var(--mu);font-size:13px;text-decoration:underline;cursor:pointer}
+.gsi-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center;z-index:200;padding:16px}
+.gsi-dialog{position:relative;background:#111;border:1px solid var(--line);border-radius:20px;padding:28px 24px 20px;width:min(360px,100%)}
+.gsi-dialog h3{margin:0 0 16px;font-size:18px}
+.gsi-x{position:absolute;top:10px;inset-inline-end:10px}
+.gsi-account{display:flex;align-items:center;gap:12px;width:100%;text-align:start;background:var(--s2);border:1px solid var(--line);border-radius:14px;padding:12px;cursor:pointer;color:#fff}
+.gsi-account b{display:block;font-size:15px}
+.gsi-account i{display:block;font-style:normal;color:var(--mu);font-size:13px}
+.gsi-note{margin:14px 0 0;font-size:13px;text-align:center}
+.ms-foot .gsi-btn{width:100%;justify-content:center;margin-bottom:14px}
+.ms-foot .gsi-user{justify-content:center;width:100%;margin-bottom:14px}
+@media (max-width:960px){.topbar .gsi-btn{display:none}}
