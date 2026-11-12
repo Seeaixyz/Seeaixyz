@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useLang } from './LangProvider';
+import { LANGS, useLang } from './LangProvider';
 
 const CHEVRON = (
   <svg
@@ -24,14 +24,17 @@ export default function MenuSheet({
   open: boolean;
   onClose: () => void;
 }) {
-  const { t } = useLang();
+  const { t, lang, setLang } = useLang();
 
   const links: Array<[string, string]> = [
     ['/#models', t('navModels')],
+    ['/pricing', t('navPricing')],
+    ['/chat', t('navChat')],
     ['/waitlist', t('navWaitlist')],
     ['/about', t('navAbout')],
     ['/privacy', t('navPrivacy')],
     ['/terms', t('navTerms')],
+    ['/refund', t('navRefund')],
     ['/updates', t('navUpdates')],
   ];
 
@@ -70,6 +73,17 @@ export default function MenuSheet({
           </Link>
         ))}
         <div className="ms-foot">
+          <div className="seg lang-switch" role="group" aria-label="Language">
+            {LANGS.map((l) => (
+              <button
+                key={l.id}
+                className={lang === l.id ? 'on' : ''}
+                onClick={() => setLang(l.id)}
+              >
+                {l.label}
+              </button>
+            ))}
+          </div>
           <span className="ms-lock">
             <span>{t('loginClosed')}</span>
             <span className="tag">{t('closedTag')}</span>

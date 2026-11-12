@@ -5,6 +5,7 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useState,
   type ReactNode,
 } from 'react';
 import {
@@ -20,24 +21,50 @@ import {
 
 export interface LangContextValue {
   lang: Lang;
+  setLang: (lang: Lang) => void;
   t: (key: keyof ContentLang) => string;
-  sections: (key: 'privacy' | 'terms' | 'about' | 'updates') => Section[];
+  sections: (key: 'privacy' | 'terms' | 'about' | 'updates' | 'refund') => Section[];
   showcase: ShowcaseItem[];
 }
 
 const LangContext = createContext<LangContextValue | null>(null);
 
+export const LANGS: Array<{ id: Lang; label: string }> = [
+  { id: 'en', label: 'English' },
+  { id: 'jawi', label: 'جاوي' },
+  { id: 'thaana', label: 'ދިވެހި' },
+];
+
 export function LangProvider({ children }: { children: ReactNode }) {
-  const lang: Lang = DEFAULT_LANG;
+  const [lang, setLangState] = useState<Lang>(DEFAULT_LANG);
 
   useEffect(() => {
-    document.documentElement.lang = lang;
-    document.documentElement.dir = 'ltr';
+    try {
+      const saved = window.localStorage.getItem('see-lang');
+      if (saved === 'jawi' || saved === 'thaana' || saved === 'en') setLangState(saved);
+    } catch {
+      /* storage unavailable */
+    }
+  }, []);
+
+  const setLang = (next: Lang) => {
+    setLangState(next);
+    try {
+      window.localStorage.setItem('see-lang', next);
+    } catch {
+      /* storage unavailable */
+    }
+  };
+
+  useEffect(() => {
+    document.documentElement.lang = lang === 'jawi' ? 'ms-Arab' : lang === 'thaana' ? 'dv' : 'en';
+    document.documentElement.dir = lang === 'en' ? 'ltr' : 'rtl';
   }, [lang]);
 
   const value = useMemo<LangContextValue>(
     () => ({
       lang,
+      setLang,
       t: (key) => lookup(lang, key as string),
       sections: (key) => lookupSections(lang, key),
       showcase: lookupShowcase(lang),

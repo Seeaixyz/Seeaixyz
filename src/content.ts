@@ -1,6 +1,6 @@
 import raw from './content.json';
 
-export type Lang = 'en';
+export type Lang = 'en' | 'jawi' | 'thaana';
 
 export interface ShowcaseItem {
   cap: string;
@@ -13,6 +13,38 @@ export type Section = [string, string];
 
 export interface ContentLang {
   about: Section[];
+  chatModeImage: string;
+  chatModeImg2Img: string;
+  chatNoImage: string;
+  chatPhImage: string;
+  chatPhImg2Img: string;
+  chatProTag: string;
+  chatReply: string;
+  chatSend: string;
+  chatSoon: string;
+  chatSub: string;
+  chatTitle: string;
+  chatUpload: string;
+  navChat: string;
+  navPricing: string;
+  navRefund: string;
+  pricingCta: string;
+  pricingLaunch: string;
+  pricingNote: string;
+  pricingSub: string;
+  pricingTitle: string;
+  proDesc: string;
+  proFeatures: string[];
+  proName: string;
+  proPrice: string;
+  proTotal: string;
+  refund: Section[];
+  refundTitle: string;
+  starterDesc: string;
+  starterFeatures: string[];
+  starterName: string;
+  starterPrice: string;
+  starterTotal: string;
   aboutTitle: string;
   apiNote: string;
   back: string;
@@ -71,6 +103,10 @@ export interface ContentLang {
 
 export interface Content {
   en: ContentLang;
+  // Jawi (Malay in Jawi script) and Thaana (Dhivehi) are partial translations:
+  // any missing key falls back to English, which stays the official language.
+  jawi: Partial<ContentLang>;
+  thaana: Partial<ContentLang>;
   defaultLang: Lang;
 }
 
@@ -80,21 +116,25 @@ const content = raw as unknown as Content;
 export const CONTENT: Content = content;
 export const DEFAULT_LANG: Lang = 'en';
 
-/** String lookup (English only). */
+/** String lookup. English is the official language and the fallback. */
 export function lookup(lang: Lang, key: string): string {
   const cur = (CONTENT[lang] as unknown as Record<string, unknown>)[key];
   if (typeof cur === 'string') return cur;
+  const en = (CONTENT.en as unknown as Record<string, unknown>)[key];
+  if (typeof en === 'string') return en;
   return '';
 }
 
 export function lookupSections(lang: Lang, key: string): Section[] {
   const cur = (CONTENT[lang] as unknown as Record<string, unknown>)[key];
   if (Array.isArray(cur)) return cur as Section[];
+  const en = (CONTENT.en as unknown as Record<string, unknown>)[key];
+  if (Array.isArray(en)) return en as Section[];
   return [];
 }
 
 export function lookupShowcase(lang: Lang): ShowcaseItem[] {
-  const cur = CONTENT[lang].showcase;
-  if (Array.isArray(cur)) return cur;
-  return [];
+  const cur = (CONTENT[lang] as unknown as Record<string, unknown>).showcase;
+  if (Array.isArray(cur)) return cur as ShowcaseItem[];
+  return CONTENT.en.showcase;
 }

@@ -3,13 +3,14 @@
 import { Fragment } from 'react';
 import { useLang } from './LangProvider';
 
-export type DocKind = 'privacy' | 'terms' | 'about' | 'updates';
+export type DocKind = 'privacy' | 'terms' | 'about' | 'updates' | 'refund';
 
-const TITLE_KEYS: Record<DocKind, 'privacyTitle' | 'termsTitle' | 'aboutTitle' | 'updatesTitle'> = {
+const TITLE_KEYS: Record<DocKind, 'privacyTitle' | 'termsTitle' | 'aboutTitle' | 'updatesTitle' | 'refundTitle'> = {
   privacy: 'privacyTitle',
   terms: 'termsTitle',
   about: 'aboutTitle',
   updates: 'updatesTitle',
+  refund: 'refundTitle',
 };
 
 export default function DocPageBody({ kind }: { kind: DocKind }) {

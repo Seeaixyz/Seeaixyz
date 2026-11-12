@@ -1,1 +1,413 @@
-{"defaultLang":"en","en":{"about":[["About us","See Image is a simple testing platform for image generation, for individual users. It was built by an Arab team led by Mahmoud Saad, based in Faqous, Sharqia Governorate, Egypt."],["Models","Two models: See Image 1.0 Mini for speed and See Image 1.0 Large for highest precision."],["Bulk production","Bulk production is not done on the platform — it goes through third-party API providers."],["Status","The platform is under preparation and will open when the models launch — Mini first, then Large."],["Contact","See@seeai.xyz"]],"aboutTitle":"About us","apiNote":"Bulk production runs through third-party API providers, not through this platform.","back":"Back","brand":"See","closedTag":"Closed","decoySub":"We are working on the issue. Please try again later.","decoyTitle":"This site is currently unavailable","footerContact":"See@seeai.xyz","footerRights":"© 2026 See Image","heroCta":"Join the waitlist","heroKicker":"See AI · See Image AI","heroNote":"Launching soon — Mini first.","heroSub":"See Image 1.0 — an image model that writes Arabic accurately, in the right place.","heroTitle":"Images with correct","heroTitleAccent":"Arabic text","largeDesc":"The most accurate Arabic and English lettering, and photorealistic images.","largeMore":"For final images, ready to publish and display.","largeName":"See Image 1.0 Large","loginClosed":"Sign-in is currently closed","menuTitle":"Menu","miniDesc":"Fast and light — for quick tests.","miniMore":"Made for quick tests before the final version.","miniName":"See Image 1.0 Mini","modelsNote":"Mini first, then Large.","modelsTitle":"The two models","navAbout":"About","navModels":"Models","navPrivacy":"Privacy Policy","navTerms":"User Agreement","navUpdates":"What’s new","navWaitlist":"Waitlist","privacy":[["Who we are (data controller)","See AI — Faqous, Sharqia Governorate, Egypt. Email: See@seeai.xyz. We are responsible for your personal data."],["What data we collect","Your email address when you join the waitlist — nothing else. We do not collect your phone number or any other data. Your IP address also reaches us when you visit the site."],["Why we collect it","Only to notify you when the platform launches, with your explicit consent when you sign up. We do not use your email for any other purpose."],["Who sees it","Waitlist messages reach our inbox through FormSubmit, and ipwho.is checks your IP address to detect VPN connections. We do not sell your data or share it with anyone else, unless the law requires it."],["Transfers outside Egypt","Waitlist messages may be stored on servers outside Egypt through our email provider, with your explicit consent when you sign up, in line with Egypt’s Personal Data Protection Law No. 151 of 2020."],["Your rights","You have the right to access, correct or delete your data, object to its processing and withdraw your consent at any time — email us at See@seeai.xyz and we will reply within 30 days. You can also complain to the Personal Data Protection Center."],["Retention and deletion","We keep your email until the platform launches or until you ask us to delete it — email us and we will delete it right away. We store no data on your device."]],"privacyTitle":"Privacy Policy","showSub":"Illustrative examples of what the model will offer.","showTitle":"Examples","showcase":[{"cap":"Cairo","model":"See Image 1.0 Large","src":"assets/showcase/cairo-night.webp","sub":"An unforgettable night"},{"cap":"Nile Bookstore","model":"See Image 1.0 Large","src":"assets/showcase/nile-bookstore.webp","sub":"A shopfront at night"},{"cap":"Arabic Coffee","model":"See Image 1.0 Large","src":"assets/showcase/arabic-coffee.webp","sub":"A wooden menu board"},{"cap":"Ramadan Kareem","model":"See Image 1.0 Mini","src":"assets/showcase/ramadan-kareem.webp","sub":"Golden lanterns"},{"cap":"Al-Sharq Restaurant","model":"See Image 1.0 Large","src":"assets/showcase/restaurant-sharq.webp","sub":"A restaurant front"},{"cap":"Moez Street","model":"See Image 1.0 Large","src":"assets/showcase/moez-street.webp","sub":"Old Cairo"},{"cap":"Eid Saeed","model":"See Image 1.0 Mini","src":"assets/showcase/eid-saeed.webp","sub":"A greeting card"},{"cap":"Glowing Arabic calligraphy","model":"See Image 1.0 Mini","src":"assets/showcase/calligraphy-glow.webp","sub":"Black background and neon"}],"terms":[["Acceptance","By using See Image you agree to this agreement. If you do not agree, do not use the platform."],["The service","See Image is an image-generation testing platform, still under preparation. The models are not available yet and will open at launch — Mini first, then Large. Features and prices may change before launch."],["Your account","When the platform opens, sign-in will be by phone number, and you are responsible for your account and all activity under it."],["Acceptable use","Do not create illegal or abusive content, infringe others’ rights, or impersonate real people, and do not use the platform for any unlawful purpose."],["Content","You own the images you create within the limits of the law, and grant us the right to run and show them to you only. The images shown on the home page are illustrative examples, not model output."],["Credits and prices","At launch, credits will be deducted on every generation according to the selected model. Official prices will be announced before launch, and no charges will apply before then."],["Liability and governing law","The service is provided “as is” without any warranty. We are not liable for any harm arising from using the platform. This agreement is governed by Egyptian law, and the Egyptian courts have jurisdiction over any dispute arising from it."]],"termsTitle":"User Agreement","updates":[["Waitlist open · Nov 2026","You can now join the waitlist and we will email you as soon as the platform launches. Joining is optional, and you can cancel at any time."],["Expected launch · Dec 2026 or Jan 2027","See Image 1.0 is still in intensive testing. The expected launch is in early December or January: Mini first, then Large. The platform is for simple tests; bulk production goes through third-party API providers."]],"updatesTitle":"What’s new","vpnRetry":"Check again","vpnSub":"A VPN or proxy connection was detected. Turn off the VPN and reload the page to continue.","vpnT":"This platform does not work over a VPN","wlBad":"Enter a valid email address.","wlBtn":"Join","wlConsent":"By joining you agree to the <a href=\"/privacy\">Privacy Policy</a> — we use your email only to notify you at launch.","wlErr":"Could not send — please try again.","wlOk":"You are on the list — we will email you at launch.","wlPageSub":"Leave your email and we will notify you as soon as See Image 1.0 launches.","wlPageTitle":"Join the waitlist","wlPh":"Your email","wlSending":"Sending to the server…","wlSub":"We will email you at launch.","wlTitle":"Join the waitlist"}}
+{
+ "defaultLang": "en",
+ "en": {
+  "about": [
+   [
+    "About us",
+    "See Image is a simple testing platform for image generation, for individual users. It was built by an Arab team led by Mahmoud Saad Mohamed Shafie Darhous, based in Faqous, Sharqia Governorate, Egypt."
+   ],
+   [
+    "Models",
+    "Two models: See Image 1.0 Mini for speed and See Image 1.0 Large for highest precision."
+   ],
+   [
+    "Bulk production",
+    "Bulk production is not done on the platform — it goes through third-party API providers."
+   ],
+   [
+    "Status",
+    "The platform is under preparation and will open when the models launch — Mini first, then Large."
+   ],
+   [
+    "Contact",
+    "See@seeai.xyz"
+   ]
+  ],
+  "aboutTitle": "About us",
+  "apiNote": "Bulk production runs through third-party API providers, not through this platform.",
+  "back": "Back",
+  "brand": "See",
+  "closedTag": "Closed",
+  "decoySub": "We are working on the issue. Please try again later.",
+  "decoyTitle": "This site is currently unavailable",
+  "footerContact": "See@seeai.xyz",
+  "footerRights": "© 2026 See Image",
+  "heroCta": "Join the waitlist",
+  "heroKicker": "See AI · See Image AI",
+  "heroNote": "Launching soon — Mini first.",
+  "heroSub": "See Image 1.0 — an image model that writes Arabic accurately, in the right place.",
+  "heroTitle": "Images with correct",
+  "heroTitleAccent": "Arabic text",
+  "largeDesc": "The most accurate Arabic and English lettering, and photorealistic images.",
+  "largeMore": "For final images, ready to publish and display.",
+  "largeName": "See Image 1.0 Large",
+  "loginClosed": "Sign-in is currently closed",
+  "menuTitle": "Menu",
+  "miniDesc": "Fast and light — for quick tests.",
+  "miniMore": "Made for quick tests before the final version.",
+  "miniName": "See Image 1.0 Mini",
+  "modelsNote": "Mini first, then Large.",
+  "modelsTitle": "The two models",
+  "navAbout": "About",
+  "navModels": "Models",
+  "navPrivacy": "Privacy Policy",
+  "navTerms": "User Agreement",
+  "navUpdates": "What’s new",
+  "navWaitlist": "Waitlist",
+  "privacy": [
+   [
+    "Who we are (data controller)",
+    "See AI, operated by Mahmoud Saad Mohamed Shafie Darhous — Faqous, Sharqia Governorate, Egypt. Email: See@seeai.xyz. We are responsible for your personal data."
+   ],
+   [
+    "What data we collect",
+    "Your email address when you join the waitlist — nothing else. We do not collect your phone number or any other data. Your IP address also reaches us when you visit the site. When subscriptions open, payment details are collected and processed by our merchant of record, Paddle — we do not see or store your card details."
+   ],
+   [
+    "Why we collect it",
+    "Only to notify you when the platform launches, with your explicit consent when you sign up. We do not use your email for any other purpose."
+   ],
+   [
+    "Who sees it",
+    "Waitlist messages reach our inbox through FormSubmit, and ipwho.is checks your IP address to detect VPN connections. Payments are processed by Paddle as merchant of record. We do not sell your data or share it with anyone else, unless the law requires it."
+   ],
+   [
+    "Transfers outside Egypt",
+    "Waitlist messages may be stored on servers outside Egypt through our email provider, with your explicit consent when you sign up, in line with Egypt’s Personal Data Protection Law No. 151 of 2020."
+   ],
+   [
+    "Your rights",
+    "You have the right to access, correct or delete your data, object to its processing and withdraw your consent at any time — email us at See@seeai.xyz and we will reply within 30 days. You can also complain to the Personal Data Protection Center."
+   ],
+   [
+    "Retention and deletion",
+    "We keep your email until the platform launches or until you ask us to delete it — email us and we will delete it right away. We store no data on your device."
+   ]
+  ],
+  "privacyTitle": "Privacy Policy",
+  "showSub": "Illustrative examples of what the model will offer.",
+  "showTitle": "Examples",
+  "showcase": [
+   {
+    "cap": "Cairo",
+    "model": "See Image 1.0 Large",
+    "src": "assets/showcase/cairo-night.webp",
+    "sub": "An unforgettable night"
+   },
+   {
+    "cap": "Nile Bookstore",
+    "model": "See Image 1.0 Large",
+    "src": "assets/showcase/nile-bookstore.webp",
+    "sub": "A shopfront at night"
+   },
+   {
+    "cap": "Arabic Coffee",
+    "model": "See Image 1.0 Large",
+    "src": "assets/showcase/arabic-coffee.webp",
+    "sub": "A wooden menu board"
+   },
+   {
+    "cap": "Ramadan Kareem",
+    "model": "See Image 1.0 Mini",
+    "src": "assets/showcase/ramadan-kareem.webp",
+    "sub": "Golden lanterns"
+   },
+   {
+    "cap": "Al-Sharq Restaurant",
+    "model": "See Image 1.0 Large",
+    "src": "assets/showcase/restaurant-sharq.webp",
+    "sub": "A restaurant front"
+   },
+   {
+    "cap": "Moez Street",
+    "model": "See Image 1.0 Large",
+    "src": "assets/showcase/moez-street.webp",
+    "sub": "Old Cairo"
+   },
+   {
+    "cap": "Eid Saeed",
+    "model": "See Image 1.0 Mini",
+    "src": "assets/showcase/eid-saeed.webp",
+    "sub": "A greeting card"
+   },
+   {
+    "cap": "Glowing Arabic calligraphy",
+    "model": "See Image 1.0 Mini",
+    "src": "assets/showcase/calligraphy-glow.webp",
+    "sub": "Black background and neon"
+   }
+  ],
+  "terms": [
+   [
+    "Operator",
+    "See Image is operated by Mahmoud Saad Mohamed Shafie Darhous, based in Faqous, Sharqia Governorate, Egypt. Email: See@seeai.xyz."
+   ],
+   [
+    "Acceptance",
+    "By using See Image you agree to this agreement. If you do not agree, do not use the platform."
+   ],
+   [
+    "The service",
+    "See Image is an image-generation and chat platform, still under preparation. The models are not available yet and will open at launch — Mini first, then Large. Features and prices may change before launch."
+   ],
+   [
+    "Limits",
+    "Free use is limited to a small number of images each day. Paid plans have higher limits. Limits may change at launch."
+   ],
+   [
+    "Chat",
+    "Chat offers two modes: Text to Image and Image to Image."
+   ],
+   [
+    "Subscriptions and payments",
+    "Two monthly plans are offered: Starter at $7 a month and Pro at $14 a month. Payments are processed by our merchant of record, Paddle. Payment processing fees (5% + $0.50 per payment) are added at checkout and paid by the subscriber: $7.85 in total for Starter and $15.20 in total for Pro. Subscriptions renew monthly until cancelled. You can cancel at any time; the plan stays active until the end of the current billing month. No custom model training (LoRA) is offered on this platform."
+   ],
+   [
+    "Your account",
+    "When the platform opens, sign-in will be with your Google account, and you are responsible for your account and all activity under it."
+   ],
+   [
+    "Acceptable use",
+    "Do not create illegal or abusive content, infringe others’ rights, or impersonate real people, and do not use the platform for any unlawful purpose."
+   ],
+   [
+    "Content",
+    "You own the images and text you create within the limits of the law, and grant us the right to run and show them to you only. The images shown on the home page are illustrative examples, not model output."
+   ],
+   [
+    "Liability and governing law",
+    "The service is provided “as is” without any warranty. We are not liable for any harm arising from using the platform. This agreement is governed by Egyptian law, and the Egyptian courts have jurisdiction over any dispute arising from it."
+   ]
+  ],
+  "termsTitle": "User Agreement",
+  "updates": [
+   [
+    "Waitlist open · Nov 2026",
+    "You can now join the waitlist and we will email you as soon as the platform launches. Joining is optional, and you can cancel at any time."
+   ],
+   [
+    "Expected launch · Dec 2026 or Jan 2027",
+    "See Image 1.0 is still in intensive testing. The expected launch is in early December or January: Mini first, then Large. The platform is for simple tests; bulk production goes through third-party API providers."
+   ]
+  ],
+  "updatesTitle": "What’s new",
+  "vpnRetry": "Check again",
+  "vpnSub": "A VPN or proxy connection was detected. Turn off the VPN and reload the page to continue.",
+  "vpnT": "This platform does not work over a VPN",
+  "wlBad": "Enter a valid email address.",
+  "wlBtn": "Join",
+  "wlConsent": "By joining you agree to the <a href=\"/privacy\">Privacy Policy</a> — we use your email only to notify you at launch.",
+  "wlErr": "Could not send — please try again.",
+  "wlOk": "You are on the list — we will email you at launch.",
+  "wlPageSub": "Leave your email and we will notify you as soon as See Image 1.0 launches.",
+  "wlPageTitle": "Join the waitlist",
+  "wlPh": "Your email",
+  "wlSending": "Sending to the server…",
+  "wlSub": "We will email you at launch.",
+  "wlTitle": "Join the waitlist",
+  "navPricing": "Pricing",
+  "navChat": "Chat",
+  "navRefund": "Refund Policy",
+  "pricingTitle": "Pricing",
+  "pricingSub": "Two simple monthly plans. Payment processing fees are added at checkout and paid by the subscriber.",
+  "pricingNote": "Prices are in US dollars. Payment processing fees (5% + $0.50 per payment, charged by our merchant of record, Paddle) are added at checkout and paid by you, the subscriber — the plan price itself goes to See AI in full. Subscriptions renew monthly and can be cancelled at any time. No custom model training (LoRA) is offered.",
+  "starterName": "Starter",
+  "starterPrice": "$7",
+  "starterTotal": "$7.85 total at checkout",
+  "starterDesc": "For trying See Image and everyday use.",
+  "proName": "Pro",
+  "proPrice": "$14",
+  "proTotal": "$15.20 total at checkout",
+  "proDesc": "For regular creators — everything in Starter, plus image to image.",
+  "pricingCta": "Join the waitlist",
+  "pricingLaunch": "Subscriptions open at launch — Mini first, then Large. Join the waitlist and we will email you as soon as you can subscribe.",
+  "refundTitle": "Refund Policy",
+  "chatTitle": "Chat",
+  "chatSub": "One chat, two ways to create: text to image, and image to image.",
+  "chatModeImage": "Text to Image",
+  "chatPhImage": "Describe the image you want…",
+  "chatSend": "Send",
+  "chatProTag": "Pro",
+  "chatSoon": "Chat opens at launch. Your message is kept on this device only — nothing is sent yet.",
+  "chatReply": "Thanks — chat opens at launch, and your message was saved on this device only. We will email you at See@seeai.xyz launch news when you join the waitlist.",
+  "starterFeatures": [
+   "Text to Image",
+   "Free images every day",
+   "Standard queue",
+   "Up to 1024px",
+   "Personal use"
+  ],
+  "proFeatures": [
+   "Everything in Starter",
+   "Image to Image",
+   "Higher daily limits",
+   "Priority queue",
+   "Up to 2K",
+   "Commercial use of images you create"
+  ],
+  "refund": [
+   [
+    "How refunds work",
+    "Subscriptions are monthly and renew automatically until you cancel. If you cancel, your plan stays active until the end of the current billing month and does not renew. We do not refund a month that has already started, except where the law requires it."
+   ],
+   [
+    "If something did not work",
+    "If a payment was charged twice, or you were charged after cancelling before renewal, email us at See@seeai.xyz with the payment receipt and we will review it within 30 days and refund the duplicate or incorrect charge."
+   ],
+   [
+    "Chargebacks",
+    "Please contact us first before opening a chargeback — most billing mistakes are fixed faster by email. Chargebacks are handled by our merchant of record, Paddle."
+   ],
+   [
+    "Contact",
+    "Refunds are handled by the operator, Mahmoud Saad Mohamed Shafie Darhous, Faqous, Sharqia Governorate, Egypt. Email: See@seeai.xyz."
+   ]
+  ],
+  "chatModeImg2Img": "Image to Image",
+  "chatPhImg2Img": "Describe the change you want in the image…",
+  "chatUpload": "Upload an image",
+  "chatNoImage": "Choose an image first."
+ },
+ "jawi": {
+  "aboutTitle": "تنتڠ کامي",
+  "apiNote": "ڤڠلوارن ڤوکال برجالن ملالوءي ڤمبکال API ڤيهق کتيڬ، بوکن ملالوءي ڤلتفورم اين.",
+  "back": "کمبالي",
+  "brand": "See",
+  "chatModeImage": "تيکس ک ڬمبر",
+  "chatPhImage": "جلسکن ڬمبر يڠ اندا ماهو…",
+  "chatProTag": "ڤرو",
+  "chatReply": "تريما کاسيه — سمبڠ دبوک سأماسا ڤلنچرن، دان مسج اندا دسيمان دالم ڤرنتي اين سهاج.",
+  "chatSend": "هنتار",
+  "chatSoon": "سمبڠ دبوک سأماسا ڤلنچرن. مسج اندا دسيمان دالم ڤرنتي اين سهاج — تيدق داڤت ديهنتار لاڬي.",
+  "chatSub": "ساتو سمبڠ، دوا چارا اونتوق منچيڤتا: تيکس ک ڬمبر، دان ڬمبر ک ڬمبر.",
+  "chatTitle": "سمبڠ",
+  "closedTag": "دتوتوڤ",
+  "footerRights": "© 2026 See Image",
+  "heroCta": "سرتاي سناراي منوڠڬو",
+  "heroKicker": "See AI · See Image AI",
+  "heroNote": "اکن دلنچرکن تيدق لاما لاڬي — ميني دهولو.",
+  "heroSub": "See Image 1.0 — موديل ڬمبر يڠ منوليس بهاس عرب دڠن بتول، د تمڤت يڠ بتول.",
+  "heroTitle": "ڬمبر دڠن تيکس",
+  "heroTitleAccent": "عرب يڠ بتول",
+  "largeDesc": "حروف عرب دان ايڠڬريس يڠ ڤاليڠ تڤت، دان ڬمبر ڤوتورياليستيک.",
+  "largeMore": "اونتوق ڬمبر اخير، سيديا اونتوق دتربيتکن دان دڤاميرکن.",
+  "largeName": "See Image 1.0 Large",
+  "loginClosed": "لوڬ ماسوق کيني دتوتوڤ",
+  "menuTitle": "مينو",
+  "miniDesc": "ڤنتس دان ريڠن — اونتوق اوجين ڤنتس.",
+  "miniMore": "دبوات اونتوق اوجين ڤنتس سبولوم ۏرسي اخير.",
+  "miniName": "See Image 1.0 Mini",
+  "modelsNote": "ميني دهولو، کمودين لارج.",
+  "modelsTitle": "دوا موديل",
+  "navAbout": "تنتڠ",
+  "navChat": "سمبڠ",
+  "navModels": "موديل",
+  "navPricing": "هرڬ",
+  "navPrivacy": "داسر ڤريۏاسي",
+  "navRefund": "داسر بايارن باليق",
+  "navTerms": "ڤرجنجين ڤڠڬونا",
+  "navUpdates": "ترکيني",
+  "navWaitlist": "سناراي منوڠڬو",
+  "pricingCta": "سرتاي سناراي منوڠڬو",
+  "pricingLaunch": "لڠڬنن دبوک سأماسا ڤلنچرن — ميني دهولو، کمودين لارج. سرتاي سناراي منوڠڬو دان کامي اکن مڠهنتار ايميل کڤاد اندا سبݢيرا اندا بوليه ملڠڬن.",
+  "pricingNote": "هرڬ دالم دولر امريکا. يورن ڤمڤروسيسن بايارن (5% + $0.50 ستياڤ بايارن، دچاس اوليه Paddle) دتمبه سأماسا ڤمبايارن دان دباير اوليه اندا، ڤلڠڬن — هرڬ ڤلن سنديري ڤرڬي کڤاد See AI سڤنوهڽا. لڠڬنن دڤرباهروي ستياڤ بولن دان بوليه دبتالکن بيلا-بيلا ماس. تيدق اد لاتيهن موديل ترسسواي (LoRA) دتاورکن.",
+  "pricingSub": "دوا ڤلن بولنن يڠ موده. يورن ڤمڤروسيسن بايارن دتمبه سأماسا ڤمبايارن دان دباير اوليه ڤلڠڬن.",
+  "pricingTitle": "هرڬ",
+  "privacyTitle": "داسر ڤريۏاسي",
+  "proDesc": "اونتوق ڤنچيڤتا بياسا — سموا دالم اساس، دتمبه ڬمبر ک ڬمبر.",
+  "proName": "ڤرو",
+  "refundTitle": "داسر بايارن باليق",
+  "showSub": "چونتوه ايلوستراسي تنتڠ اڤ يڠ اکن دتاورکن اوليه موديل.",
+  "showTitle": "چونتوه",
+  "starterDesc": "اونتوق منچوبا See Image دان ڬونا هارين.",
+  "starterName": "اساس",
+  "termsTitle": "ڤرجنجين ڤڠڬونا",
+  "updatesTitle": "اڤ يڠ بهارو",
+  "wlBad": "ماسوقکن علامت ايميل يڠ صح.",
+  "wlBtn": "سرتاي",
+  "wlConsent": "دڠن مڽرتاي، اندا برستوجو دڠن <a href=\"/privacy\">داسر ڤريۏاسي</a> — کامي مڠڬوناکن ايميل اندا هاڽ اونتوق ممبريتاهو اندا سأماسا ڤلنچرن.",
+  "wlErr": "تيدق داڤت ديهنتار — سيلا چوبا لاڬي.",
+  "wlOk": "اندا سوده دالم سناراي — کامي اکن مڠهنتار ايميل کڤاد اندا سأماسا ڤلنچرن.",
+  "wlPageSub": "تيڠڬلکن ايميل اندا دان کامي اکن ممبريتاهو اندا سبݢيرا سأماسا See Image 1.0 دلنچرکن.",
+  "wlPageTitle": "سرتاي سناراي منوڠڬو",
+  "wlPh": "ايميل اندا",
+  "wlSending": "مڠهنتار ک ڤلاين…",
+  "wlSub": "كامي اکن مڠهنتار ايميل کڤاد اندا سأماسا ڤلنچرن.",
+  "wlTitle": "سرتاي سناراي منوڠڬو",
+  "chatModeImg2Img": "ڬمبر ک ڬمبر",
+  "chatPhImg2Img": "جلسکن ڤروبهن يڠ اندا ماهو دالم ڬمبر…",
+  "chatUpload": "مؤت ناءيق ڬمبر",
+  "chatNoImage": "ڤيليه ڬمبر دهولو."
+ },
+ "thaana": {
+  "aboutTitle": "އަހަރެމެންނާ ބެހޭ",
+  "apiNote": "ބޮޑު ޕްރޮޑަކްޝަން ހިނގަނީ ތިންވަނަ ފަރާތުގެ API ޕްރޮވައިޑަރުން މެދުވެރިކޮށް، މި ޕްލެޓްފޯމް މެދުވެރިކޮށް ނޫން.",
+  "back": "އެނބުރި",
+  "brand": "See",
+  "chatModeImage": "ޓެކްސްޓުން ފޮޓޯއަށް",
+  "chatPhImage": "ބޭނުންވާ ފޮޓޯ ބަޔާންކޮށްދޭން…",
+  "chatProTag": "ޕްރޯ",
+  "chatReply": "ޝުކުރިއްޔާ — ޗެޓް ހުޅުވާނީ ލޯންޗްގައި، އަދި ތިޔަ މެސެޖް ސޭވްވީ މި ޑިވައިސްގައި އެކަނި. ލޯންޗް ޚަބަރު See@seeai.xyz އިން އީމެއިލްކުރާނަން.",
+  "chatSend": "ފޮނުއްވާ",
+  "chatSoon": "ޗެޓް ހުޅުވާނީ ލޯންޗްގައި. ތިޔަ މެސެޖް ރަހައްޓާނީ މި ޑިވައިސްގައި އެކަނި — އަދި އެއްޗެއް ނުފޮނުވޭ.",
+  "chatSub": "އެއް ޗެޓް، އުފެއްދުމަށް ދެ ގޮތް: ޓެކްސްޓުން ފޮޓޯއަށް، އަދި ފޮޓޯއިން ފޮޓޯއަށް.",
+  "chatTitle": "ޗެޓް",
+  "closedTag": "ބަންދު",
+  "footerRights": "© 2026 See Image",
+  "heroCta": "އިންތިޒާރު ލިސްޓަށް ޖޮއިންވන්න",
+  "heroKicker": "See AI · See Image AI",
+  "heroNote": "އަންނަނީ — ފުރަތަމަ މިނީ.",
+  "heroSub": "ސީ އިމޭޖް 1.0 — ޢަރަބި ލިޔުން ސައްހަކޮށް، ސައްހަ ތަނުގައި ލިޔެވޭ ފޮޓޯ މޮޑެލެއް.",
+  "heroTitle": "ފޮޓޯތައް",
+  "heroTitleAccent": "ސައްހަ ޢަރަބި ލިޔުމާއެކު",
+  "largeDesc": "އެންމެ ސައްހަ ޢަރަބި އަދި އިނގިރޭސި އަކުރުތައް، އަދި ފޮޓޯރިއަލިސްޓިކް ފޮޓޯތައް.",
+  "largeMore": "ފައިނަލް ފޮޓޯތަކަށް، ޕަބްލިޝްކޮށް ދައްކަން ތައްޔާރު.",
+  "largeName": "See Image 1.0 Large",
+  "loginClosed": "ލޮގިން މިހާރު ބަންދު",
+  "menuTitle": "މެނޫ",
+  "miniDesc": "އަވަސް އަދި ލުއި — އަވަސް ޓެސްޓަށް.",
+  "miniMore": "ފައިނަލް ވަރޝަނަށް ކުރިން އަވަސް ޓެސްޓަށް ހަދާފައި.",
+  "miniName": "See Image 1.0 Mini",
+  "modelsNote": "ފުރަތަމަ މިނީ، އަދި ދެން ލާރޖް.",
+  "modelsTitle": "ދެ މޮޑެލް",
+  "navAbout": "އަހަރެމެންނާ ބެހޭ",
+  "navChat": "ޗެޓް",
+  "navModels": "މޮޑެލްތައް",
+  "navPricing": "އަގުތައް",
+  "navPrivacy": "ޕްރައިވެސީ ޕޮލިސީ",
+  "navRefund": "ފައިސާ އަނބުރާ ދިނުން",
+  "navTerms": "އެއްބަސްވުން",
+  "navUpdates": "އާ ޚަބަރުތައް",
+  "navWaitlist": "އިންތިޒާރު ލިސްޓް",
+  "pricingCta": "އިންތިޒާރު ލިސްޓަށް ޖޮއިންވන්න",
+  "pricingLaunch": "ސަބްސްކްރިޕްޝަން ހުޅުވާނީ ލޯންޗްގައި — ފުރަތަމަ މިނީ، އަދި ދެން ލާރޖް. އިންތިޒާރު ލިސްޓަށް ޖޮއިންވެ، ސަބްސްކްރައިބްކުރެވޭ ވަގުތު އީމެއިލް ލިބޭނެ.",
+  "pricingNote": "އަގުތައް އެމެރިކާ ޑޮލަރުގައި. ޕޭމަންޓް ޕްރޮސެސިންގް ފީ (5% + $0.50 ކޮންމެ ޕޭމަންޓަކަށް، Paddle އިން ނަގާ) ޗެކްއައުޓްގައި އިތުރުކޮށް ސަބްސްކްރައިބަރު ދައްކާނެ — ޕްލޭން އަގު ފުރިހަމައަށް See AI އަށް ދޭ. ސަބްސްކްރިޕްޝަން ކޮންމެ މަހަކު ރިނިއުވެ، ކޮންމެ ވަގުތަކު ކެންސަލްކުރެވޭ. ކަސްޓަމް މޮޑެލް ޓްރެއިނިންގް (LoRA) ނުދެވޭ.",
+  "pricingSub": "ދެ ސާދަ މަހު ޕްލޭން. ޕޭމަންޓް ޕްރޮސެސިންގް ފީ ޗެކްއައުޓްގައި އިތުރުކޮށް ސަބްސްކްރައިބަރު ދައްކާނެ.",
+  "pricingTitle": "އަގުތައް",
+  "privacyTitle": "ޕްރައިވެސީ ޕޮލިސީ",
+  "proDesc": "ގަވާއިދުން އުފައްދާ މީހުންނަށް — Starter ގައި ހުރިހާ ކަމެއް، އަދި ފޮޓޯއިން ފޮޓޯއަށް.",
+  "proName": "ޕްރޯ",
+  "refundTitle": "ފައިސާ އަނބުރާ ދިނުން",
+  "showSub": "މޮޑެލުން ދޭނެ ކަންތައްތަކުގެ މިސާލުތައް.",
+  "showTitle": "މިސާލުތައް",
+  "starterDesc": "See Image ޓްރައިކޮށް ދުވަހުން ދުވަހަށް ބޭނުންކުރުމަށް.",
+  "starterName": "އަސާސީ",
+  "termsTitle": "އެއްބަސްވުން",
+  "updatesTitle": "އާ ކަންތައް",
+  "wlBad": "ސައްހަ އީމެއިލް އެޑްރެސް ޖައްސަވާ.",
+  "wlBtn": "ޖޮއިންވන්න",
+  "wlConsent": "ޖޮއިންވުމުން ތިޔަ <a href=\"/privacy\">ޕްރައިވެސީ ޕޮލިސީ</a> އަށް އެއްބަސްވެވޭ — ތިޔަ އީމެއިލް ބޭނުންކުރާނީ ލޯންޗްގައި އެންގުމަށް އެކަނި.",
+  "wlErr": "ނުފޮނުވުނު — އަލުން މަސައްކަތްކޮށްލައްވާ.",
+  "wlOk": "ތިޔަ ލިސްޓްގައި އެބަހުރި — ލޯންޗްގައި އީމެއިލް ލިބޭނެ.",
+  "wlPageSub": "އީމެއިލް ދެއްވާ، See Image 1.0 ލޯންޗްވާ ވަގުތު އެންގޭނެ.",
+  "wlPageTitle": "އިންތިޒާރު ލިސްޓަށް ޖޮއިންވන්න",
+  "wlPh": "ތިޔަ އީމެއިލް",
+  "wlSending": "ޕްލޭންއަށް ފޮނުވަނީ…",
+  "wlSub": "ލޯންޗްގައި އީމެއިލް ލިބޭނެ.",
+  "wlTitle": "އިންތިޒާރު ލިސްޓަށް ޖޮއިންވන්න",
+  "chatModeImg2Img": "ފޮޓޯއިން ފޮޓޯއަށް",
+  "chatPhImg2Img": "ފޮޓޯއަށް ގެންނަން ބޭނުންވާ ބަދަލު ބަޔާންކޮށްދޭން…",
+  "chatUpload": "ފޮޓޯ އަޕްލޯޑްކުރައްވާ",
+  "chatNoImage": "ފުރަތަމަ ފޮޓޯއެއް ޚިޔާރުކުރައްވާ."
+ }
+}
